@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------ top css ------ */
+
+.top {
+  background-color: #283891;
+  padding-top: 18px;
+  padding-right: 185px;
+  padding-left: 185px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.end {
+  text-align: end;
+}
+
+/*----- navbar css ----- */
+
+.header {
+  padding: 10px;
+}
+
+.header .logo {
+  height: 15vh;
+}
+
+.header ul li a {
+  font-size: 22px;
+  margin-right: 8px;
+}
+
+/*----- carousel css ----- */
+
+.carousel-img-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/banner-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+.carousel-img-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/banner-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+.carousel-img-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./img/banner-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+
+/* carousel button css  */
+
+.owl-dots {
+  display: none;
+}
+
+.owl-nav {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.owl-nav button {
+  position: absolute !important;
+  display: inline-block !important;
+  text-align: center !important;
+  background: transparent !important;
+  width: 56px !important;
+  height: 56px !important;
+  cursor: pointer !important;
+  line-height: 44px !important;
+  font-size: 40px !important;
+  color: white !important;
+  border: 2px solid white !important;
+  transition: all 500ms ease !important;
+}
+.owl-nav button.owl-prev {
+  left: 60px;
+}
+.owl-nav button.owl-next {
+  right: 60px;
+}
+
+/* carousel text css  */
+
+.carousel .text {
+  padding-top: 190px;
+  padding-left: 200px;
+}
+
+.carousel .text h3 {
+  color: #dc3545;
+  font-size: 25px;
+}
+
+.carousel .text h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.carousel .text p {
+  color: white;
+}
+
+.carousel .text .btn-default {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+}
+
+/* ----- about css ----- */
+
+.about {
+  margin-top: 50px;
+}
+
+.about h5 {
+  color: #dc3545;
+}
+
+.about h2 {
+  font-size: 45px;
+  color: #283891;
+}
+
+/* mission css  */
+
+.mission {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./img/banner-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.mission .center {
+  text-align: center;
+  color: white;
+}
+
+.mission .btn-default {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  margin-top: 40px;
+}
+
+/* ----- services css ----- */
+
+.services {
+  margin-top: 50px;
+}
+
+.services h5 {
+  color: #dc3545;
+}
+
+.services h2 {
+  font-size: 45px;
+  color: #283891;
+}
+
+/* services-1 css  */
+
+.services-1 .text-right {
+  align-items: end;
+}
+
+.services-1 .btn-default {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+}
+
+/* ---------- carousel-card css ---------- */
+
+.carousel-card {
+  margin-top: 50px;
+}
+
+.carousel-card h5 {
+  color: #283891;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* ---------- training-modules css  ---------- */
+
+.training-modules {
+  margin-top: 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./img/img-director.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+}
+
+.training-modules h4 {
+  color: #dc3545;
+  font-size: 25px;
+}
+
+.training-modules p {
+  color: white;
+}
+
+.training-modules .btn-left {
+  text-align: end;
+  padding-top: 40px;
+}
+
+.training-modules .btn-default {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+}
+
+/* ---------- trainig-modules-title  ---------- */
+
+.trainig-modules-title h5 {
+  color: #dc3545;
+  margin-top: 50px;
+}
+
+.trainig-modules-title h2 {
+  font-size: 45px;
+  color: #283891;
+}
+
+/* ---------- trainig-modules-header  ---------- */
+
+.training-modules-header .btn-left {
+  text-align: end;
+  padding-top: 10px;
+}
+
+.training-modules-header .btn-default {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+}
+
+/* ---------- trainig-modules-card  ---------- */
+
+/* .trainig-modules-card {
+  margin-top: 0px;
+} */
+
+.trainig-modules-card h6 {
+  color: #283891;
+  margin-top: 20px;
+}
+
+.trainig-modules-card .btn-default {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+}
+
+.trainig-modules-card .m-top {
+  margin-top: 50px;
+}
+
+/* ------ services css ------ */
+
+.services {
+  margin-top: 50px;
+}
+
+.services .board {
+  background-color: #ef4045;
+  color: white;
+  margin-bottom: -50px;
+  z-index: 99;
+  position: relative;
+  padding: 40px;
+}
+
+.services .board .border {
+  background-color: #ffffff;
+  color: #ef4045;
+  padding: 20px;
+  font-size: 25px;
+  margin-right: 20px;
+  border-radius: 2px;
+}
+
+/* ------- footer css ------- */
+
+.footer {
+  background-color: #283891;
+  /* padding: 100px; */
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.logo-white {
+  /* height: 20vh; */
+  width: 20vw;
+}
+
+.footer h5 {
+  color: #ef4045;
+  margin-top: 20px;
+}
+
+.p-top {
+  padding-top: 150px;
+  color: #ef4045;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer .icon {
+  color: white;
+  font-size: 25px;
+  margin-right: 10px;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+/* copy section  */
+
+.copy {
+  background-color: #142270;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

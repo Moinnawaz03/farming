@@ -1,0 +1,154 @@
+@media only screen and (max-width:991px) {
+.navbar-light .navbar-brand {
+	width:75%;
+}
+
+.navbar-light .navbar-brand img {
+	max-height: 75px;
+}
+
+.navbar-toggler {
+	line-height: 1;
+	padding: 0;
+	border-radius: 0;
+}
+.navbar-toggler.menu-icon {
+	width: 40px;
+	padding:0;
+	cursor: pointer;
+	position: relative;
+	border:0px;
+}
+.navbar-toggler.menu-icon span {
+	width: 100%;
+	height: 4px;
+	display: block;
+	background-color: #005DBA;
+	margin: 6px 0;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.navbar-toggler.menu-icon.active span {
+	position: absolute;
+	top: calc(50% - 8px);
+}
+.navbar-toggler.menu-icon.active span:nth-child(1) {
+	-webkit-transform: rotate(45deg);
+			transform: rotate(45deg);
+}
+.navbar-toggler.menu-icon.active span:nth-child(3) {
+	-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+}
+.navbar-toggler.menu-icon.active span:nth-child(2) {
+	-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+	display: none;
+} 
+
+.navbar-nav .nav-item {
+	text-align: center;
+}
+
+.navbar {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+}
+
+
+@media only screen and (max-width:767px) {
+.flush-xs {
+    padding-right: 0px;
+    padding-left: 0px;
+} 
+
+.visible-xs {
+    display: inline-block;
+}
+
+.xs-100 {
+    width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.underlined::after {
+    left: 50%;
+    margin-left: -35px;
+    width: 70px;
+}
+
+.row-eq-height {
+    display:inline-block;
+}
+
+.cta.secondary .card {
+    margin-bottom:30px;
+}
+
+.about .btn-default {
+    margin-bottom: 30px;
+}
+
+.values h3, .newsletter h3 {
+    text-align: center;
+    width: 100%;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+}

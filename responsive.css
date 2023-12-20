@@ -1,0 +1,249 @@
+@media only screen and (max-width: 991px) {
+  /* ------ top css ------ */
+
+  .top {
+    background-color: #283891;
+    padding-top: 18px !important;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-bottom: 10px !important;
+    color: white;
+  }
+
+  .end {
+    text-align: start;
+  }
+
+  .header .logo {
+    width: 200px;
+  }
+
+  /*----- carousel css ----- */
+
+  .carousel-img-1 {
+    height: 400px;
+  }
+  .carousel-img-2 {
+    height: 400px;
+  }
+  .carousel-img-3 {
+    height: 400px;
+  }
+
+  /* carousel button css  */
+
+  .owl-dots {
+    display: none;
+  }
+
+  .owl-nav {
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    width: 100%;
+    transform: translateY(-50%);
+  }
+
+  .owl-nav button {
+    position: absolute !important;
+    display: inline-block !important;
+    text-align: center !important;
+    background: transparent !important;
+    width: 36px !important;
+    height: 36px !important;
+    cursor: pointer !important;
+    line-height: 20px !important;
+    font-size: 30px !important;
+    color: white !important;
+    border: 2px solid white !important;
+    transition: all 500ms ease !important;
+  }
+  .owl-nav button.owl-prev {
+    left: 20px;
+  }
+  .owl-nav button.owl-next {
+    right: 20px;
+  }
+
+  /* carousel text css  */
+
+  .carousel .text {
+    padding-top: 75px;
+    padding-left: 70px;
+  }
+
+  .carousel .text h3 {
+    color: #dc3545;
+  }
+
+  .carousel .text h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .carousel .text .btn-default {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+  }
+
+  /* ------ about css ----- */
+
+  .about h5 {
+    color: #dc3545;
+    margin-left: 10px;
+  }
+
+  .about h2 {
+    font-size: 45px;
+    color: #283891;
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }
+
+  .about-1 .para {
+    display: none;
+  }
+
+  /* ----- services css ----- */
+
+  .services h5 {
+    color: #dc3545;
+    margin-left: 10px;
+  }
+
+  .services h2 {
+    font-size: 45px;
+    color: #283891;
+    margin-left: 10px;
+  }
+
+  /* services-1 css  */
+
+  .services-1 .text-right {
+    text-align: start !important;
+  }
+  .services-1 .btn-default {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+  }
+
+  /*----- trainig modules ------ */
+
+  .training-modules .btn-left {
+    text-align: start;
+    padding-top: 40px;
+  }
+
+  /* ---------- trainig-modules-title  ---------- */
+
+  .trainig-modules-title h5 {
+    color: #dc3545;
+    margin-left: 10px;
+  }
+
+  .trainig-modules-title h2 {
+    margin-left: 10px;
+    color: #283891;
+  }
+
+  /* ---------- trainig-modules-header  ---------- */
+
+  .training-modules-header .btn-left {
+    text-align: start;
+    padding-top: 10px;
+  }
+
+  /* ------- footer css ------- */
+
+  .footer {
+    background-color: #283891;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+
+  .logo-white {
+    width: 40vw;
+    margin-left: 90px;
+  }
+
+  .footer h5 {
+    color: #ef4045;
+    margin-top: 20px;
+  }
+
+  .footer .text {
+    text-align: center;
+  }
+
+  .p-top {
+    padding-top: 50px;
+    text-align: center;
+    color: #ef4045;
+  }
+
+  .footer p {
+    color: white;
+    text-align: center;
+  }
+
+  .footer .icon {
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 10px;
+  }
+
+  .footer .fa-icon {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .services .board {
+    background-color: #ef4045;
+    color: white;
+    margin-bottom: -50px;
+    z-index: 99;
+    position: relative;
+    padding: 30px;
+  }
+
+  .services .board .border {
+    background-color: #ffffff;
+    color: #ef4045;
+    padding: 5px;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+  .p-top {
+    padding-top: 150px;
+    color: #ef4045;
+  }
+
+  .logo-white {
+    width: 30vw;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .carousel .text {
+    padding-top: 40px;
+    padding-left: 70px;
+  }
+  .p-top {
+    padding-top: 30px;
+    color: #ef4045;
+  }
+  .logo-white {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+  }
+}
